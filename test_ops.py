@@ -11,3 +11,7 @@ def test_multiply():
 
 def test_divide():
     assert divide(10,5) == 2
+
+def test_divide_by_zero():
+    result = divide(10, 0)
+    assert result == "Error: Division by zero is undefined"
